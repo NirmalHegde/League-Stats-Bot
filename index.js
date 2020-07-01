@@ -26,7 +26,7 @@ bot.on('message', function (message) {
             //roasts are inputted in an array and accessed randomly to output
             var roasts = ["if I wanted to kill myself, I'd jump up to your ego and jump down to your IQ.", "I'd call you cancer but at least cancer gets kills.", "map awareness level: Christopher Columbus.", "how did you even get passed the login screen?", "not even Olaf ult could prevent you from being disabled."];
             var num = Math.floor(Math.random() * 5);
-            message.channel.send(args[1]+', '+roasts[num])
+            message.channel.send(args[1]+', '+roasts[num]);
             break;
 
         //clear function
@@ -54,7 +54,7 @@ bot.on('message', function (message) {
                     "Accept": "text/html",
                     "User-Agent": "Chrome"
                 }
-            }
+            };
             
             request(options, function(error, response, responseBody) {
                 if(error) return message.reply ("Error in grabbing desired stats")

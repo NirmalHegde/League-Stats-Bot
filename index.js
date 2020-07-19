@@ -63,7 +63,6 @@ bot.on('message', function (message) {
                         page.$x('/html/body/div[2]/div[3]/div/div/div[1]/div[1]/div/img'),
                         page.$x('/html/body/div[2]/div[3]/div/div/div[1]/div[2]/div/img')
                     ]);
-    
                     const profileSrc = await profileEL.getProperty('src');
                     const profilePic = await profileSrc.jsonValue();
     

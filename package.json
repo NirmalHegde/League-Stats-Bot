@@ -1,0 +1,23 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx --userconfig .npmrc npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.3"
+  },
+  "author": "Nirmal",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "puppeteer": "^5.0.0",
+    "webshot": "^0.18.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

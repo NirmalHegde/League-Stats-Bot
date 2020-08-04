@@ -1,16 +1,10 @@
-/*
-Author: Nirmal
-Date: July 21, 2020
-Description: To retrieve game stats from op.gg and push them to Discord during discussions.
-*/
 const Discord = require('discord.js'); //Discord API for sending messages and activating the bot
 const puppeteer = require('puppeteer'); //Puppeteer API for webscraping
 require('dotenv').config(); //token hiding
 
 //Contacts discord client to activate the bot and call is set to !
 const bot = new Discord.Client();
-const token = process.env.TOKEN;
-bot.login(token);
+bot.login(process.env.TOKEN);
 const call = '!';
 
 //bot parses messages based on spaces when call is active inside message body

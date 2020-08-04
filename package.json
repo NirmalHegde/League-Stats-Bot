@@ -5,7 +5,8 @@
   "main": "league-bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "npx --userconfig .npmrc npm-force-resolutions"
+    "preinstall": "npx --userconfig .npmrc npm-force-resolutions",
+    "start": "node league-bot.js"
   },
   "resolutions": {
     "graceful-fs": "4.2.3"

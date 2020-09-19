@@ -17,7 +17,7 @@ This function will extract an insult (all league of legends based) from an array
 
 ### `!stats [league username]`
 
-This function will use the Puppeteer API to webscrape stat information from OP.GG's DOMs for the username mentioned. It will then output it to the Discord chat via the Discord API's `message.channel.send()` command:
+This function will use the Puppeteer API to webscrape stat information (Rank, Win/Losses, League Points, Win Ratio, Most Recent Game) from OP.GG's DOMs for the username mentioned. It will then output it to the Discord chat via the Discord API's `message.channel.send()` command:
 
 ![](sample_images/stats.PNG)
 

@@ -13,5 +13,5 @@ There are several commands that can be used with this chatbot, mostly surroundin
 
 This function will extract an insult (all league of legends based) from an array at random and reply to the user being roasted using Discord API's `message.reply()` command:
 
-![](sample_images/filename%20roast.png)
+![](sample_images/roast.PNG)
 

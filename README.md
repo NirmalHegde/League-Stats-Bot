@@ -7,7 +7,11 @@ All content utilized in this chatbot is based on content retreived from op.gg.
 
 There are several commands that can be used with this chatbot, mostly surrounding things in League of Legends:
 
+
+
 ### `!roast [discord username]`
 
 This function will extract an insult (all league of legends based) from an array at random and reply to the user being roasted using Discord API's `message.reply()` command:
+
+![](sample_images/roast.png)
 

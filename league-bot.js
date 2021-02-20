@@ -9,6 +9,7 @@ const call = '!';
 
 //bot parses messages based on spaces when call is active inside message body
 bot.on('message', function (message) {
+    console.log('bot is online!');
     let args = message.content.split(" ");
 
     //help function

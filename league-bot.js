@@ -61,7 +61,7 @@ bot.on('message', function (message) {
             
             //async function for webscraping
             async function website(url){
-                const browser = await puppeteer.launch(); //initialize puppeteer headless browser
+                const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']}); //initialize puppeteer headless browser
                 const page =  await browser.newPage(); //start new page
                 await page.goto (url); //input link into browser
     

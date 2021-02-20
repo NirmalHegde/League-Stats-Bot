@@ -1,1 +1,1 @@
-Worker: node league-bot.js
+worker: node league-bot.js

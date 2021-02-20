@@ -1,7 +1,7 @@
 {
-  "name": "discordbot",
+  "name": "league-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A League of Legends bot that provides competitive stats of all north american players. Also roasts anyone you want!",
   "main": "league-bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

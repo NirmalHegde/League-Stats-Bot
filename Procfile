@@ -1,0 +1,1 @@
+worker: node league-bot.js

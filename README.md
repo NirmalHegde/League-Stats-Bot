@@ -5,6 +5,13 @@ All content utilized in this chatbot is based on content retreived from OP.GG.
 
 <br/>
 
+## Add this bot to your server!
+
+1. Click this link: https://discord.com/api/oauth2/authorize?client_id=726575985457102969&permissions=0&scope=bot
+2. Enjoy!
+
+<br/>
+
 ## How to use the bot
 
 ### `!roast [discord username]`
